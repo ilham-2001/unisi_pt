@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap");
+
+/* Universal */
+
+a {
+    color: #3a2d98;
+    text-decoration: none;
+}
+a:hover {
+    color: #3a2d98;
+    text-decoration: underline;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+.btn {
+  display: block;
+  padding: 10px;
+  width: 100%;
+
+  border-radius: 8px;
+}
+.btn-light {
+    border-color: #3A2D98;
+}
+.btn-light:hover {
+    opacity: .6;
+    border-color: #3A2D98;
+}
+.btn-primary-uii {
+  background-color: #3a2d98;
+  color: #fff;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.btn-primary-uii:hover {
+    color: #fff;
+    opacity: .8;
+}
+.fa-brands {
+    color: #3A2D98;
+    margin-right: 5px;
+}
+/* Login Page */
+
+.form-check {
+    position: relative;
+}
+.form-check a {
+    float: right;
+}
+h1 {
+  width: 225px;
+  margin-bottom: 45px;
+
+  font-size: 36px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #3a2d98;
+}
+.login-col {
+  padding: 0;
+}
+.login-side-img {
+  height: 100vh;
+  width: 100%;
+}
+.login-rg-wrapper {
+  position: relative;
+  top: 70px;
+  padding: 170px;
+}
+.sign-up {
+    text-align: center;
+}
+
