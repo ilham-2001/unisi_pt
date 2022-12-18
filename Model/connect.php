@@ -1,5 +1,4 @@
 <?php 
-    
 
     class SQL 
     {
@@ -21,6 +20,21 @@
         public function selectAll($table) 
         {
             return $this->conn->query("SELECT * FROM $table")->fetch_all(MYSQLI_ASSOC);
+        }
+
+        public function checkExistingAccount($email, $pswd)
+        {
+            return $this->conn->query("SELECT nim FROM `mahasiswa` WHERE email='$email' AND nim='$pswd'")->num_rows;
+        }
+
+        /**
+         * Close connection to Sql server when pagi is closed
+         * 
+         */
+
+        public function __destruct()
+        {
+            $this->conn->close();
         }
     }
 
