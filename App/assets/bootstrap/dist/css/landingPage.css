@@ -107,7 +107,7 @@ button {
   width: 100%;
   padding-left: 1.7rem;
   padding-right: 1.7rem;
-  padding-top: 5rem;
+  padding-top: 3rem;
   margin-bottom: 5rem;
 }
 .grid-cols-2 {
@@ -120,6 +120,15 @@ button {
 .grid-item-1 {
   padding-top: 5rem;
   padding-left: 1.5rem;
+}
+.special {
+  text-align: center;
+  color: #ffff;
+  width: fit-content;
+  margin: 1% auto;
+  background-color: #3a2d98;
+  padding: 15px;
+  border-radius: 5px;
 }
 .main-heading {
   font-weight: 300;
@@ -244,11 +253,17 @@ button {
   line-height: 25px;
   font-size: 15.5px;
 }
+footer span {
+  color: #fafbfb;
+  font-size: 12px;
+}
 footer {
   width: 100%;
+  text-align: center;
   background-color: var(--primary-color);
-  height: 12px;
+  height: fit-content;
   margin-top: 8rem;
+  padding: 10px;
 }
 
 /* ==== MEDIA QURIES FOR RESPONSIVE DESIGN ==== */
