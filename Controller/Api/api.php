@@ -8,5 +8,16 @@
     {
         loginHandler($_REQUEST);
     } 
+    else if (URI == '/unisiCft') 
+    {
+        if (METHOD == 'GET')
+        {
+            // get all dummy call for team data
+
+        } else {
+            // Do some post stuff
+
+        }
+    } 
 
 ?>
