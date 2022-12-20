@@ -60,7 +60,7 @@
             <p class="info-text">We're ready to help you for improving yourself in academic segment. So, enjoy this facility and use this chance well.</p>
 
             <div class="btn_wrapper">
-              <a href="unisiSeSignup.html"><button class="btn view_more_btn">Register<i class="ri-arrow-right-line"></i></button></a>
+              <a href="unisiRegister.php"><button class="btn view_more_btn">Register<i class="ri-arrow-right-line"></i></button></a>
 
               <a href="unisiSeLogin.php"><button class="btn documentation_btn">Log In</button></a>
             </div>

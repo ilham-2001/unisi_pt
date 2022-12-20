@@ -14,7 +14,7 @@
    
       <nav class="nav">
         <div class="logo">
-          <h2>UII Student Employment</h2>
+          <a href="index.php"><h2>UII Student Employment</h2></a>
         </div>
 
         <div class="nav_menu" id="nav_menu">
@@ -24,7 +24,7 @@
 
           <ul class="nav_menu_list">
             <li class="nav_menu_item">
-              <a href="#" class="nav_menu_link">Log In</a>
+              <a href="unisiSeLogin.php" class="nav_menu_link">Log In</a>
             </li>
           </ul>
         </div>
