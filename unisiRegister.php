@@ -1,3 +1,7 @@
+<?php
+  require_once 'Conf/bootstrap.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -33,31 +37,62 @@
 
     <div class="wrapper">
       <div class="form_container">
-        <form name="form">
+        <form name="form" method="POST">
           <div class="form_wrap fullname">
             <div class="form_item">
               <label>First Name</label>
-              <input class="input" type="text" />
+              <input class="input" name="fname" type="text" />
               <div class="error" id="fname"></div>
             </div>
             <div class="form_item">
               <label>Last Name</label>
-              <input class="input" type="text" />
+              <input class="input" name="lname"  type="text" />
               <div class="error" id="lname"></div>
             </div>
           </div>
           <div class="form_wrap">
             <div class="form_item">
               <label>Email Address</label>
-              <input class="input" type="text" />
+              <input class="input" name="email"  type="text" />
               <div class="error" id="email"></div>
             </div>
           </div>
           <div class="form_wrap">
             <div class="form_item">
-              <label>Password</label>
-              <input class="input password" type="password" />
-              <div class="error" id="phone"></div>
+              <label>No. Telepon</label>
+              <input class="input" name="noTelepon"  type="text" />
+              <div class="error" id="noTelepon"></div>
+            </div>
+          </div>
+          <div class="form_wrap">
+            <div class="form_item">
+              <label>Jurusan</label>
+              <select class="input" name="jurusan" type="text" />
+                <option value="Informatika">Informatika</option>
+                <option value="Teknik Industri">Teknik Industri</option>
+                <option value="Teknik Mesin">Teknik Mesin</option>
+                <option value="Teknik Kimia">Teknik Kimia</option>
+                <option value="Teknik Elektro">Teknik Elektro</option>
+                <option value="Rekayasa Tekstil">Rekayasa Tekstil</option>
+                <option value="Akuntansi">Akuntansi</option>
+                <option value="Arsitektur">Arsitektur</option>
+                <option value="Ekonomi Islam">Ekonomi Islam</option>
+                <option value="Ekonomi Pembangunan">Ekonomi Pembangunan</option>
+                <option value="Farmasi">Farmasi</option>
+                <option value="Hubungan Internasional">Hubungan Internasional</option>
+                <option value="Hukum Keluarga">Hukum Keluarga</option>
+                <option value="Hukum<">Hukum</option>
+                <option value="Hukum Bisnis">Hukum Bisnis</option>
+                <option value="Ilmu Komunikasi">Ilmu Komunikasi</option>
+                <option value="Kedokteran">Kedokteran</option>
+                <option value="Manajemen">Manajemen</option>
+                <option value="Pendidikan Agama Islam">Pendidikan Agama Islam</option>
+                <option value="Pendidikan Bahasa Inggris">Pendidikan Bahasa Inggris</option>
+                <option value="Pendidikan Kimia">Pendidikan Kimia</option>
+                <option value="Psikologi">Psikologi</option>
+                <option value="Kimia">Kimia</option>
+                <option value="Statistika">Statistika</option>
+              </select>
             </div>
           </div>
 

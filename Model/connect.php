@@ -27,6 +27,16 @@
             return $this->conn->query("SELECT nim FROM `mahasiswa` WHERE email='$email' AND nim='$pswd'")->num_rows;
         }
 
+        public function insertAccount($name, $email, $telepon, $jurusan, $nim)
+        {
+            try {
+                 return $this->conn->query("INSERT INTO mahasiswa (`nama_mahasiswa`, `email`, `no_telepon`, `jurusan`, `nim`) 
+                VALUES ('$name', '$email', '$telepon', '$jurusan', '$nim')");
+            } catch (mysqli_sql_exception $e) {
+                return 0;
+            }
+        }
+
         /**
          * Close connection to Sql server when pagi is closed
          * 
