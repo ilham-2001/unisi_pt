@@ -34,7 +34,7 @@
               <a href="unisiCft.php" class="nav_menu_link">Call For Team</a>
             </li>
             <li class="nav_menu_item">
-              <a href="#" class="nav_menu_link">Part Time</a>
+              <a href="unisiPt.php" class="nav_menu_link">Part Time</a>
             </li>
             <li class="nav_menu_item">
               <a href="#" class="nav_menu_link">About</a>

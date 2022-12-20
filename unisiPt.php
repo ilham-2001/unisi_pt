@@ -49,7 +49,7 @@ include_once('Conf/bootstrap.php');
     <main class="Container">
         <div class="Header">
             <form method="POST">
-            <input class="form-control" type="text" placeholder="asal fakultas">
+                <input class="form-control" type="text" placeholder="asal fakultas">
                 <input class="form-control" type="text" placeholder="jenis kegiatan">
                 <button class="btn">Search</button>
             </form>
@@ -59,7 +59,7 @@ include_once('Conf/bootstrap.php');
             <div class="Wrapper">
                 <div class="RightContent">
                     <div class="card-description">
-
+                        
                     </div>
                 </div>
                 <div class="LeftContent">
@@ -72,6 +72,26 @@ include_once('Conf/bootstrap.php');
                                 <p>Universitas Islam Indonesia</p>
                                 <p>Nama part-time</p>
                                 <p>asal fakultas</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>PT Title</h3>
+                            </div>
+                            <div class="card-body">
+                                <p>Universitas Islam Indonesia</p>
+                                <p>Nama part-time</p>
+                                <p>asal fakultasz</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>PT Title</h3>
+                            </div>
+                            <div class="card-body">
+                                <p>Universitas Islam Indonesia</p>
+                                <p>Nama part-time</p>
+                                <p>asal fakultasz</p>
                             </div>
                         </div>
                     </div>
