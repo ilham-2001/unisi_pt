@@ -1,9 +1,5 @@
 <?php 
     require_once('Conf/bootstrap.php');
-
-    
-    // loginHandler($_REQUEST);
-
 ?>
 
 <!DOCTYPE html>
@@ -18,7 +14,7 @@
     <link rel="stylesheet" href="App/assets/bootstrap/dist/css/bootstrap.min.css">
     <style src="App/assets/bootstrap/dist/js/bootstrap.bundle.min.js" defer></style>
     <!-- Custom CSS and JS -->
-    <link rel="stylesheet" href="App/assets/bootstrap/dist/css/style.css">
+    <link rel="stylesheet" href="./App/assets/bootstrap/dist/css/style.css">
     <!-- Icon -->
     <link rel="Icon" href="App/assets/icon/icon.png">
     <script src="https://kit.fontawesome.com/915b8e3f91.js" crossorigin="anonymous"></script>
