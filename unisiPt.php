@@ -49,10 +49,11 @@ include_once('Conf/bootstrap.php');
     <main class="Container">
         <div class="Header">
             <form method="POST">
+            <input class="form-control" type="text" placeholder="asal fakultas">
                 <input class="form-control" type="text" placeholder="jenis kegiatan">
                 <button class="btn">Search</button>
             </form>
-            <p> <strong>Search team </strong>for upcoming events</p>
+            <p> <strong>Search part-time </strong>suitable near you</p>
         </div>
         <div class="Content">
             <div class="Wrapper">
@@ -65,11 +66,12 @@ include_once('Conf/bootstrap.php');
                     <div class="card-container">
                         <div class="card">
                             <div class="card-header">
-                                <h3>CFT Title</h3>
+                                <h3>PT Title</h3>
                             </div>
                             <div class="card-body">
                                 <p>Universitas Islam Indonesia</p>
-                                <p>Jenis Kegiatan</p>
+                                <p>Nama part-time</p>
+                                <p>asal fakultas</p>
                             </div>
                         </div>
                     </div>

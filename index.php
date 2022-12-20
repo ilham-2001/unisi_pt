@@ -8,7 +8,7 @@
 
     <!-- ==== STYLE.CSS ==== -->
     <link rel="stylesheet" href="./App/assets/bootstrap/dist/css/landingPage.css" />
-
+    <link rel="stylesheet" href="./App/assets/bootstrap/dist/css/universal.css">
     <!-- ====  REMIXICON CDN ==== -->
     <!-- <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" /> -->
 
