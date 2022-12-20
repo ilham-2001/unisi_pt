@@ -10,7 +10,8 @@
         {
             // get all dummy call for team data
 
-        } else if ('POST'){
+        } 
+        else if ('POST'){
             // Do some post stuff
             loginHandler($_REQUEST);
         }
@@ -21,9 +22,23 @@
         {
             // get all dummy call for team data
 
-        } else if ('POST') {
+        } 
+        else if ('POST') {
             // Do some post stuff
 
         }
-    } 
+    }
+    else if (URI == '/unisi_pt/unisiRegister')
+    {
+        if (METHOD == 'GET')
+        {
+            // get all dummy call for team data
+
+        } 
+        else if ('POST') {
+            // Do some post stuff
+            registerAccount($_REQUEST);
+        }
+    }
+    
 ?>

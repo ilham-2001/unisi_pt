@@ -23,4 +23,17 @@
 
         echo $sql->checkExistingAccount($email, $pswd);
     }
+
+    function registerAccount($req)
+    {
+        global $sql;
+        define('FULLNAME', "$req[fname] $req[lname]");
+        define('EMAIL', $req['email']);
+        define('NOTELEPON', $req['noTelepon']);
+        define('JURUSAN', $req['jurusan']);
+        define('NIM', explode('@', EMAIL)[0]);
+        
+        echo json_encode($sql->insertAccount(FULLNAME, EMAIL, NOTELEPON, JURUSAN, NIM));
+
+    }
 ?>
