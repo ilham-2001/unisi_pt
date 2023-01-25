@@ -8,9 +8,10 @@
     <title>Unisi Student Employment - Login</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="App/assets/bootstrap/dist/css/bootstrap.min.css">
-    <style src="App/assets/bootstrap/dist/js/bootstrap.bundle.min.js" defer></style>
+    <script src="./App/assets/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
     <!-- Custom CSS and JS -->
     <link rel="stylesheet" href="./App/assets/bootstrap/dist/css/style.css">
+    <script src="./App/assets/scripts/unisiLogin.js" defer></script>
     <!-- Icon -->
     <link rel="Icon" href="App/assets/icon/icon.png">
     <script src="https://kit.fontawesome.com/915b8e3f91.js" crossorigin="anonymous"></script>
@@ -28,7 +29,7 @@
                         <h1>UII Student Employment</h1>
 
                         <div class="form-container">
-                            <form method="POST", action="http://localhost:3001/login">
+                            <form method="POST">
                                 <div class="mb-3">
                                     <label for="login-email" class="form-label">Email address</label>
                                     <input type="email" class="form-control" id="login-email" name="email" placeholder="udingepeng@gmail.com">
@@ -43,8 +44,8 @@
                                     <label class="form-check-label" for="remember-me">Ingat saya</label>
                                     <a href="#">Lupa Password?</a>
                                 </div>
-                                <button type="submit" class="btn btn-primary-uii mb-3">Masuk</button>
-                                <button type="submit" class="btn btn-light mb-3" name=""><i class="fa-brands fa-google"></i> Masuk dengan Google</button>
+                                <button type="submit" class="btn btn-primary-uii mb-3" id="loginBtn">Masuk</button>
+                                <button type="submit" class="btn btn-light mb-3"><i class="fa-brands fa-google"></i> Masuk dengan Google</button>
                             </form>
                             <p class="sign-up">Belum punya akun? <a href="#">Daftar</a></p>
                         </div>
