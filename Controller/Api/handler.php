@@ -27,6 +27,7 @@
     function registerAccount($req)
     {
         global $sql;
+        
         define('FULLNAME', "$req[fname] $req[lname]");
         define('EMAIL', $req['email']);
         define('NOTELEPON', $req['noTelepon']);

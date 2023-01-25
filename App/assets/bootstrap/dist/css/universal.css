@@ -158,6 +158,25 @@ input[type="text"]:focus {
   outline: none;
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
 }
+.regis-status {
+  display: inline-block;
+  margin-top: 4px;
+  border: 1px solid #6f6f6f;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+/* List */
+
+ul, ol {
+  margin-top: 20px;
+}
+
+.desc-li {
+  list-style: circle;
+  margin-left: 5px;
+  color: #6f6f6f;
+}
 
 /* Scrollbar */
 
