@@ -197,6 +197,11 @@ ul, ol {
   border-radius: 10px;
 }
 
+/* ADDITIONAL FOR JS */
+.hidden {
+  display: none;
+}
+
 /* ==== MEDIA QURIES FOR RESPONSIVE DESIGN ==== */
 @media screen and (min-width: 768px) {
   .toggle_btn {
