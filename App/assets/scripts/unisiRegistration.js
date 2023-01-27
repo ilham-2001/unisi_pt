@@ -10,9 +10,16 @@ window.addEventListener('load', () => {
         const XHR = new XMLHttpRequest();
 
         const formData = new FormData(regisForm);
-        const data = Object.fromEntries(formData);
+        let data = Object.fromEntries(formData);
 
-        console.log(data);
+        data = {name: `${data.fname} ${data.lname}`, ...data};
+        delete data.fname;
+        delete data.lname;
+
+        XHR.open(regisForm.method, 'http://localhost:3001/registration');
+        XHR.setRequestHeader('Content-Type', 'application/json');
+
+        XHR.send(JSON.stringify(data));
 
         e.preventDefault()
     })
