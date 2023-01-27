@@ -27,6 +27,6 @@ window.addEventListener('load', () => {
                 window.location.href = 'index.html';
             }
         }
-        e.preventDefault()
+         e.preventDefault()
     });
 })

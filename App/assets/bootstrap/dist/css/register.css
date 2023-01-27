@@ -189,6 +189,7 @@ footer span {
 }
 
 .form_item input[type='text'],
+.form_item input[type='date'],
 .form_item select {
   width: 100%;
   padding: 10px;
@@ -201,7 +202,7 @@ footer span {
   border-color: #6271f0;
 }
 
-.btn input[type='submit'] {
+.btn button {
   background-color: #3a2d98;
   border: 1px solid #1598d4;
   padding: 10px;
