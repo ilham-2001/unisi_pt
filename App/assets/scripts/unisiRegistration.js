@@ -16,10 +16,18 @@ window.addEventListener('load', () => {
         delete data.fname;
         delete data.lname;
 
+        data['nim'] = data.email.split('@')[0] ;
+
         XHR.open(regisForm.method, 'http://localhost:3001/registration');
         XHR.setRequestHeader('Content-Type', 'application/json');
 
         XHR.send(JSON.stringify(data));
+
+        XHR.onload = () => {
+            const res = JSON.parse(XHR.response);
+
+            console.log(res);
+        }
 
         e.preventDefault()
     })
